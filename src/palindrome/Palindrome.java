@@ -1,3 +1,4 @@
+package palindrome;
 import java.util.ArrayList;
 /*
  * This program finds all character combinations of a given string.
@@ -27,9 +28,6 @@ public class Palindrome{
 		return (String[]) out.toArray(new String[out.size()]);
 	}
 	
-	public void run(){
-		
-	}
 	
 	public static void main(String[] args) {
 		for(String in: test("This is a long string.")){
